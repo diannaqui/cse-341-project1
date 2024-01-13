@@ -1,0 +1,18 @@
+LOCALHOST No database is connected.
+
+GET http://localhost:3000/users the request returns a json object with all users. 
+
+GET http://localhost:3000/users/65a1adc519a922b4fb6f8a53 # the request returns a json object with a single user with _id = 65a1adc519a922b4fb6f8a53
+GET http://localhost:3000/users/65a1aedb19a922b4fb6f8a54 # the request returns a json object with a single user with _id = 65a1aedb19a922b4fb6f8a54
+GET http://localhost:3000/users/65a1af1219a922b4fb6f8a55 # the request returns a json object with a single user with _id = 65a1af1219a922b4fb6f8a55
+
+
+
+
+PRODUCTION using RENDER
+
+GET https://project1-5ytq.onrender.com/users  the request returns a json object with all users. 
+
+GET https://project1-5ytq.onrender.com/users/65a1adc519a922b4fb6f8a53 # the request returns a json object with a single user with _id = 65a1adc519a922b4fb6f8a53
+GET https://project1-5ytq.onrender.com/users/65a1aedb19a922b4fb6f8a54 # the request returns a json object with a single user with _id = 65a1aedb19a922b4fb6f8a54
+GET https://project1-5ytq.onrender.com/users/65a1af1219a922b4fb6f8a55 # the request returns a json object with a single user with _id = 65a1af1219a922b4fb6f8a55
