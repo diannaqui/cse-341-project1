@@ -8,28 +8,28 @@ GET http://localhost:3000/users
 ### Get user by id (get user1)
 GET http://localhost:3000/users/65a1adc519a922b4fb6f8a53
 
-### Create user5
+### Create a User
 POST http://localhost:3000/users HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "User5",
-    "lastName": "User5",
-    "email": "user5@email.com",
-    "favoriteColor": "Black",
-    "birthday": "05/05/1995"
+    "firstName": "Sofia",
+    "lastName": "Gallego",
+    "email": "s_gallego@email.com",
+    "favoriteColor": "Purple",
+    "birthday": "05/12/1900"
   }
 
-### PUT change color on user1
+### PUT change the email of user with ID = 65a1adc519a922b4fb6f8a53
 PUT http://localhost:3000/users/65a1adc519a922b4fb6f8a53 HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "User1",
-    "lastName": "User1",
-    "email": "user1@email.com",
-    "favoriteColor": "White",
-    "birthday": "01/01/1991"
+    "firstName": "Karla",
+    "lastName": "Smith",
+    "email": "karlaSmith@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "01/25/1990"
   }
 
 ### DELETE user1
@@ -47,28 +47,28 @@ GET https://project1-5ytq.onrender.com/users
 ### Get user by id 
 GET https://project1-5ytq.onrender.com/users/65a1adc519a922b4fb6f8a53
 
-### Create user5
+### Create a user
 POST https://project1-5ytq.onrender.com/users HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "User5",
-    "lastName": "User5",
-    "email": "user5@email.com",
-    "favoriteColor": "Black",
-    "birthday": "05/05/1995"
+    "firstName": "Sofia",
+    "lastName": "Gallego",
+    "email": "s_gallego@email.com",
+    "favoriteColor": "Purple",
+    "birthday": "05/12/1900"
   }
 
-### PUT change color on user1
+### PUT change the email of user with ID = 65a1adc519a922b4fb6f8a53
 PUT https://project1-5ytq.onrender.com/users/65a1adc519a922b4fb6f8a53 HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "User1",
-    "lastName": "User1",
-    "email": "user1@email.com",
-    "favoriteColor": "White",
-    "birthday": "01/01/1991"
+    "firstName": "Karla",
+    "lastName": "Smith",
+    "email": "karlaSmith@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "01/25/1990"
   }
 
 ### DELETE user1
