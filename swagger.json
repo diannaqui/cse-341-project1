@@ -5,7 +5,7 @@
     "description": "This project will provide an API for storing and retrieving information about users",
     "version": "1.0.0"
   },
-  "host": "cse341-smt2.onrender.com",
+  "host": "project1-5ytq.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
