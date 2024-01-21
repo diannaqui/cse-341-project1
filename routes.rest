@@ -6,34 +6,34 @@
 GET http://localhost:3000/contacts
 
 ### Get contact by id (get contact1)
-GET http://localhost:3000/contacts/65a1adc519a922b4fb6f8a53
+GET http://localhost:3000/contacts/65ac6a231a6d94e859fce465
 
 ### Create a contact
 POST http://localhost:3000/contacts HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "Sofia",
-    "lastName": "Gallego",
-    "email": "s_gallego@email.com",
-    "favoriteColor": "Purple",
-    "birthday": "05/12/1900"
+    "firstName": "Norma",
+    "lastName": "Salas",
+    "email": "SalasNN@email.com",
+    "favoriteColor": "White",
+    "birthday": "05/10/1980"
   }
 
-### PUT change the email of contact with ID = 65a1adc519a922b4fb6f8a53
-PUT http://localhost:3000/contacts/65a1adc519a922b4fb6f8a53 HTTP/1.1 
+### PUT change the email of contact with ID = 65ac6a231a6d94e859fce465
+PUT http://localhost:3000/contacts/65ac6a231a6d94e859fce465 HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "Karla",
-    "lastName": "Smith",
-    "email": "karlaSmith@gmail.com",
-    "favoriteColor": "Blue",
-    "birthday": "01/25/1990"
+    "firstName": "Laura",
+    "lastName": "Garcia",
+    "email": "LAURA1985@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "09/10/1985"
   }
 
 ### DELETE contact1
-DELETE http://localhost:3000/contacts/65a1adc519a922b4fb6f8a53 
+DELETE http://localhost:3000/contacts/65ac6a231a6d94e859fce465 
 
 
 
@@ -45,31 +45,31 @@ DELETE http://localhost:3000/contacts/65a1adc519a922b4fb6f8a53
 GET https://project1-5ytq.onrender.com/contacts
 
 ### Get contact by id 
-GET https://project1-5ytq.onrender.com/contacts/65a1adc519a922b4fb6f8a53
+GET https://project1-5ytq.onrender.com/contacts/65ac6a231a6d94e859fce465
 
 ### Create a contact
 POST https://project1-5ytq.onrender.com/contacts HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "Sofia",
-    "lastName": "Gallego",
-    "email": "s_gallego@email.com",
-    "favoriteColor": "Purple",
-    "birthday": "05/12/1900"
+    "firstName": "Ella",
+    "lastName": "Ross",
+    "email": "ella35@email.com",
+    "favoriteColor": "Green",
+    "birthday": "10/10/1995"
   }
 
-### PUT change the email of contact with ID = 65a1adc519a922b4fb6f8a53
-PUT https://project1-5ytq.onrender.com/contacts/65a1adc519a922b4fb6f8a53 HTTP/1.1 
+### PUT change the email of contact with ID = 65ac6a8c1a6d94e859fce466
+PUT https://project1-5ytq.onrender.com/contacts/65ac6a8c1a6d94e859fce466 HTTP/1.1 
 content-type: application/json
 
   {
-    "firstName": "Karla",
-    "lastName": "Smith",
-    "email": "karlaSmith@gmail.com",
-    "favoriteColor": "Blue",
-    "birthday": "01/25/1990"
+    "firstName": "Ann",
+    "lastName": "Jones",
+    "email": "annJoo@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "03/10/1975"
   }
 
 ### DELETE contact1
-DELETE https://project1-5ytq.onrender.com/contacts/65a1adc519a922b4fb6f8a53 
+DELETE https://project1-5ytq.onrender.com/contacts/65ac6a231a6d94e859fce465 
