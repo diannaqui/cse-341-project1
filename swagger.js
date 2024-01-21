@@ -2,11 +2,11 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'Users API',
-    description: 'This project will provide an API for storing and retrieving information about users'
+    title: 'Contacts API',
+    description: 'This project will provide an API for storing and retrieving information about contacts'
   },
     // host: 'localhost:3000',
-    // schemes: ['http, https']
+    // schemes: ['http', 'https']
   host: 'project1-5ytq.onrender.com',
   schemes: ['https']
 };

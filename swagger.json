@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users API",
-    "description": "This project will provide an API for storing and retrieving information about users",
+    "title": "Contacts API",
+    "description": "This project will provide an API for storing and retrieving information about contacts",
     "version": "1.0.0"
   },
   "host": "project1-5ytq.onrender.com",
@@ -24,12 +24,12 @@
         }
       }
     },
-    "/users/": {
+    "/contacts/": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
-        "summary": "Get all users",
+        "summary": "Get all Contacts",
         "description": "",
         "produces": [
           "application/json"
@@ -42,10 +42,10 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
-        "summary": "Add a user",
-        "description": "Add user information in the provided body template, user ID is created automatically.",
+        "summary": "Add a contact",
+        "description": "Add contact information in the provided body template, contact ID is created automatically.",
         "parameters": [
           {
             "name": "body",
@@ -82,13 +82,13 @@
         }
       }
     },
-    "/users/{id}": {
+    "/contacts/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
-        "summary": "Get a single user using their id",
-        "description": "If you don't know the user ID, search for the user in ' GET ( Get all users ) '.",
+        "summary": "Get a single contact using their id",
+        "description": "If you don't know the contact ID, search for the contact in ' GET ( Get all Contacts ) '.",
         "produces": [
           "application/json"
         ],
@@ -108,10 +108,10 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
-        "summary": "Change user information",
-        "description": "Enter the user ID and any necessary changes. If you don't know the user ID, search for the user in ' GET ( Get all users ) '.",
+        "summary": "Change Contact information",
+        "description": "Enter the contact ID and any necessary changes. If you don't know the contact ID, search for the contact in ' GET ( Get all contacts ) '.",
         "parameters": [
           {
             "name": "id",
@@ -155,10 +155,10 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
-        "summary": "Delete a user",
-        "description": "WARNING: The user will be permanently removed from the database.",
+        "summary": "Delete a contact",
+        "description": "WARNING: The contact will be permanently removed from the database.",
         "parameters": [
           {
             "name": "id",
